@@ -1,0 +1,170 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f4f2;
+}
+/* タイトルのスタイリング */
+.title h2 {
+    font-size: 2.5em; /* フォントサイズを大きくする */
+    color: #4a4a4a; /* 深いグレーの色 */
+    text-align: center; /* 中央揃え */
+    margin-top: 20px; /* 上部の余白 */
+    margin-bottom: 20px; /* 下部の余白 */
+    font-family: 'Times New Roman', serif; /* クラシックなフォントスタイル */
+}
+
+/* タイトルの下の画像スタイリング */
+.title img {
+    display: block; /* ブロック表示 */
+    margin: 0 auto; /* 自動的に中央揃え */
+    max-width: 100%; /* 画像の最大幅を100%にする */
+    height: auto; /* 高さを自動調整 */
+    border-radius: 10px; /* 角を丸くする */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影をつける */
+}
+
+/* ナビゲーションバーのスタイリング */
+.navbar {
+    font-size: 2.5em; /* フォントサイズを大きくする */
+    background-color: #dfa724; /* 背景色 */
+    padding: 10px 0; /* 上下のパディング */
+    text-align: center; /* 中央揃え */
+    border-bottom: 1px solid #e7e7e7; /* 下線 */
+}
+
+.navbar a {
+    display: inline-block; /* インラインブロック要素 */
+    color: #4a4a4a; /* リンクの色 */
+    padding: 14px 16px; /* パディング */
+    text-decoration: none; /* 下線をなくす */
+    font-size: 17px; /* フォントサイズ */
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* ホバー時の背景色 */
+    color: black; /* ホバー時の文字色 */
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.photo-item {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.photo-item h3 {
+    margin: 10px 0 0 0;
+    text-align: center;
+    color: #333;
+}
+
+
+
+/* コンタクトヘッダーのスタイリング */
+.contact-header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contact-header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* コンタクトフォームのスタイリング */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+/* ソーシャルメディアリンクのスタイリング */
+.social-media {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social-media h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #777;
+}
+
+
+/* メインコンテンツのスタイリング */
+.about-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-container h1 {
+    color: #ff66cc; /* 可愛いピンク色 */
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* 画像の角を丸くする */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* やさしい影を加える */
+}
