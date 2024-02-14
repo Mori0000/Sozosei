@@ -28,7 +28,7 @@ body {
 /* ナビゲーションバーのスタイリング */
 .navbar {
     font-size: 2.5em; /* フォントサイズを大きくする */
-    background-color: #dfa724; /* 背景色 */
+    background-color: #dd2905; /* 背景色 */
     padding: 10px 0; /* 上下のパディング */
     text-align: center; /* 中央揃え */
     border-bottom: 1px solid #e7e7e7; /* 下線 */
@@ -47,8 +47,8 @@ body {
     color: black; /* ホバー時の文字色 */
 }
 
-
-.gallery {
+/* チャンネル部分のスタイリング */
+.channels {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 15px;
@@ -57,26 +57,14 @@ body {
     margin: 0 auto;
 }
 
-.photo-item {
-    background-color: #fff;
-    border: 2px solid #ddd;
-    padding: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+/* 本文のスタイリング */
+.article {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
 }
-
-.photo-item img {
-    width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ddd;
-}
-
-.photo-item h3 {
-    margin: 10px 0 0 0;
-    text-align: center;
-    color: #333;
-}
-
-
 
 /* コンタクトヘッダーのスタイリング */
 .contact-header {
@@ -168,3 +156,4 @@ body {
     border-radius: 10px; /* 画像の角を丸くする */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* やさしい影を加える */
 }
+
