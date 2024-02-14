@@ -36,7 +36,7 @@ body {
 
 .navbar a {
     display: inline-block; /* インラインブロック要素 */
-    color: #4a4a4a; /* リンクの色 */
+    color: #f6f4f4; /* リンクの色 */
     padding: 14px 16px; /* パディング */
     text-decoration: none; /* 下線をなくす */
     font-size: 17px; /* フォントサイズ */
