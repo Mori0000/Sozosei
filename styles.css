@@ -58,12 +58,44 @@ body {
 }
 
 /* 本文のスタイリング */
-.article {
-    font-size: 16px;
-    line-height: 1.6;
+.main-content {
     padding: 20px;
-    max-width: 700px;
-    margin: 0 auto;
+    margin: 20px auto;
+    max-width: 800px; /* コンテンツの最大幅を設定 */
+    background-color: #ffffff; /* 背景色 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影を付けて浮き上がらせる効果 */
+    border-radius: 8px; /* 角を丸くする */
+}
+
+.main-content h1, .main-content h2, .main-content h3 {
+    color: #333; /* 見出しの色 */
+    margin-top: 20px; /* 上部の余白 */
+    margin-bottom: 10px; /* 下部の余白 */
+}
+
+.main-content p {
+    font-size: 16px; /* フォントサイズ */
+    line-height: 1.6; /* 行の高さ */
+    color: #666; /* テキストの色 */
+    margin-bottom: 20px; /* 段落間の余白 */
+}
+
+.main-content a {
+    color: #dd2905; /* リンクの色 */
+    text-decoration: none; /* 下線をなくす */
+}
+
+.main-content a:hover {
+    text-decoration: underline; /* ホバー時に下線を表示 */
+}
+
+.main-content ul, .main-content ol {
+    padding-left: 20px; /* リストのインデント */
+    margin-bottom: 20px; /* 下部の余白 */
+}
+
+.main-content li {
+    margin-bottom: 10px; /* リストアイテム間の余白 */
 }
 
 /* コンタクトヘッダーのスタイリング */
